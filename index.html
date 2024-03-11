@@ -2,22 +2,37 @@
 <html lang="en-US">
   <head>
     <title>Programing quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js"></script>
   </head>
-  <body>
+  <body class="container vertical-center">
     <h1>Welcome to the quiz!</h1>
+    <img class="right" src="img/python_img.jpg" alt="image of the python symbol">
+    <img class="left" src="img/javascript_img.png" alt="image of the javascript symbol">
     <form>
       <label for="name">What is your name?</label>
-      <input type="text" name="name">
+      <input type="text" name="name" id="Name">
       <br>
       <label for="favNum">What is your favorite number?</label>
-      <input type="number" name="favNum">
+      <input type="number" name="favNum" id="Num">
       <br>
       <p>Pick your favorite project of the ones shown</p>
-      <label for="favProjectAI">Coding an neural network from scratch</label>
-      <input type="radio" name="favProjectAI" id="AI" value="AI">
-      <label for="favProjectWeb">Coding a websites logic</label>
-      <input type="radio" name="favProjectWeb" id="Web" value="Web">
+      <label for="AI">Coding an neural network from scratch</label>
+      <input type="radio" name="favProject" id="AI" value="AI">
+      <br>
+      <label for="Web">Coding a websites logic</label>
+      <input type="radio" name="favProject" id="Web" value="Web">
+      <br>
+      <label for="Stle">Coding a websites style</label>
+      <input type="radio" name="favProject" id="Style" value="Style">
+      <br>
+      <label for="animal">favorite animal?</label>
+      <input type="text" id="animal">
+      <br>
+      <input type="submit" id="submit">
     </form>
+    <h3 id="outputH"></h3>
+    <p id="outputP"></p>
   </body>
 </html>
