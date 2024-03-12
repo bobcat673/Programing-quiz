@@ -16,7 +16,7 @@ A basic project that asks the user some questions and recommends a language to l
 ## Setup/Installation Requirements
 
 * open git bash or another terminal application
-* run the command "git clone https://github.com/bobcat673/triangles.git
+* run the command "git clone https://github.com/bobcat673/Programing-quiz.git
 * open index.html
 
 ## Known Bugs
