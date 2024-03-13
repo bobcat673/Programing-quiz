@@ -1,5 +1,7 @@
 .vertical-center {
   text-align: center;
+  padding: auto;
+  margin: auto;
 }
 
 .right {
